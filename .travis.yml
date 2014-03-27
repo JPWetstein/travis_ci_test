@@ -3,4 +3,4 @@ language: ruby
 rvm:
   - 2.1.0
 after_success:
-  - travis report --pro
+  - travis report
