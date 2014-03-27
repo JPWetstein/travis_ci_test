@@ -32,7 +32,7 @@ group :doc do
   gem 'sdoc', require: false
 end
 
-gem 'travis'
+gem 'travis', '~> 1.6.8'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'

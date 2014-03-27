@@ -1,5 +1,5 @@
 require 'travis'
-require 'pp'
+#require 'pp'
 Travis.access_token = 'PVAsYBOkFByYoABCwG_ZaQ'
 
 repo = Travis::Repository.find('JPWetstein/travis_automated_tests')

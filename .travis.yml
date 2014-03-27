@@ -3,4 +3,5 @@ language: ruby
 rvm:
   - 2.1.0
 after_success:
+  - travis logs
   - ruby test/travis_refresh.rb
