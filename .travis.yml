@@ -5,5 +5,4 @@ rvm:
 before_script:
   - gem install travis
 after_success:
-  - travis logs
   - ruby test/travis_refresh.rb
