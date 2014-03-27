@@ -1,7 +1,12 @@
 require 'travis'
 require 'pp'
 Travis.access_token = 'PVAsYBOkFByYoABCwG_ZaQ'
-#repos = Travis::Repository.find_all
-#pp repos
+
 repo = Travis::Repository.find('JPWetstein/travis_automated_tests')
-repo.last_build.restart
+if repo
+  puts "found automated test repo"
+  repo.last_build.restart
+else
+  #throw error
+  puts "No repo matching that name"
+end
