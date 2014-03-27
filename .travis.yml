@@ -4,4 +4,3 @@ rvm:
   - 2.1.0
 after_success:
   - travis report --pro
-  - puts "blah blah"
